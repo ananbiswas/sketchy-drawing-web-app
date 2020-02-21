@@ -1,0 +1,77 @@
+body{
+    background: url(animation-1298762_640.png) center center;
+    background-size: cover;
+    
+}
+
+#title{
+    background-color: white;
+    width: 259px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    font-family: 'Trade Winds';
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.inputContainer{
+    width: 200px;
+    height: 130px;
+    margin: 0 auto;
+    background-color: white;
+}
+#colorinput{
+    text-align: center;
+    transform: translateY(50px);
+}
+
+#thickness{
+    position:relative;
+}
+
+#circle{
+    height: 3px;  
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+#slider{
+    width: 200px;
+    transform: translateY(70px);
+}
+
+#container{
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+}
+
+#paint{
+    border: 6px solid purple;
+    border-radius: 20px;
+    background-color: white;
+    cursor: crosshair;
+}
+
+#button{
+    width: 130px;
+    margin: 0 auto;
+    transform: translateY(-70px);
+}
+
+.eraseMode{
+    
+    color:  white;
+}
